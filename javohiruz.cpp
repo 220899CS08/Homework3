@@ -84,13 +84,112 @@ int main(int argc, const char * argv[]) {
     
     */
     
+    /*
+    
+    problem 5
+    
     bool zero = false;
     bool one = true;
     
-    cout << true;
-    cout << false;
+    cout << zero << " = false" << "\n";
+    cout << one << " = true";
 
+    */
+    
+    /*
+    
+    problem 6
+    
+    int x = 4;
+    x += 3;
+    
+    cout << x;
+    
+    */
+    
+    /*
+     
+    problem 7
+    
+    int StudentsNumber = 250;
+       int Groups = 11;
+              cout << StudentsNumber << " = Students Number" << "\n";
+    
+    int group = StudentsNumber/Groups;
+    cout << group << " = Other groups" <<"\n";
+    
+    int lastgroup = StudentsNumber%Groups;
+    cout << lastgroup << " = Last group";
+    
+    */
+     
+    /*
+    
+    problem 8
+    
+    double first = 25e3;
+    float second = 15e4;
+    cout << first << "\n";
+    cout << second;
+    
+    */
+    
+    /*
+    
+    problem 9
+    
+    int hokiz(0);
+    int hukiz(0);
+    int equal(0);
+    
+    cout << "Enter first number: ";
+    cin >> hokiz;
+    
+    cout << "Enter second number: ";
+    cin >> hukiz;
+    
+    equal = hokiz == hukiz;
+    
+    cout << "Answer: " << equal << "\n";
+    
+    */
+    
+    /*
+    
+    problem 10
+    
+    int foll(0);
+    int full(0);
+    
+    cout << "Enter number: ";
+    cin >> foll;
+    
+    cout << "Enter another number: ";
+    cin >> full;
+    
+    cout << (foll < 50 && foll < full) << endl;
+    
+    */
+    
+    /*
+    
+    problem 11
+    
+    int foll(0);
+    int full(0);
+    
+    cout << "Enter number: ";
+    cin >> foll;
+    
+    cout << "Enter another number: ";
+    cin >> full;
+    
+    cout << (foll < 50 || foll < full) << endl;
+    
+    */
+    
     cin.get ();
     
     return 0;
-}
+    }
+
